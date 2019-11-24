@@ -8,61 +8,141 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Holly Phelps</a>
+
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">About</a></li> |
+            <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li> |
+            <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!--  
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Holly Phelps</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-sm-9">
+                    <a class="navbar-brand" href="#">Holly Phelps</a>
+                </div>
+                <div class="col-3">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="index.html">About</a></li>
+                        <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav> -->
 
-            <ul class="list-inline">
-                    <li class="list-inline-item"><a href="index.html">About</a></li>
-                    <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-                </ul>
-        
-        </nav>
 
-        <style>
-     
-        </style>
-    </div>
+    <style>
+        h1 {
+            color: #4aaaa5;
+            font-family: 'Georgia', Times, 'Times New Roman', serif;
+        }
+
+        a {
+            color: #777777;
+        }
+
+        p {
+            color: #777777;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+.navbar-brand{
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    /* border: 20px; */
+    margin-left: 2em;
+  
+}
+        .background {
+            background-color: white;
+            border: solid 1px;
+            border-color: #dddddd;
+        }
+
+        .bg-light {
+            color: #ffffff;
+            border-bottom: solid 2px #cccccc;
+            height: 80px;
+        }
+
+        .bg-dark {
+            border-top: 8px solid #4aaaa5;
+            background-color: #666666;
+            height: 50px;
+        }
+    </style>
+
 
 </head>
 
 
 
 <div class="container">
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-sm-12"><br><br></div>
-        <div class="col-sm-12 col-lg-7">
+        <div class="background">
+        <div class="col-sm-12 col-lg-8">
             <h1>About Me</h1>
-            <hr>
-            <div class="row">
-                <div class="col-sm-2">
-                    <img src="images/portimage1.jpg">
-                </div>
-                <div class="col-sm-8">
-                    <p>Hi, I'm Holly. I'm an aspiring developer who hopes to become literate in many coding languages.
-                        In the future I would love to create websites and apps with my new found skills. I recently
-                        joined
-                        a coding bootcamp that is giving me the knowledge to make this dream a reality.
-                    </p>
-                    <p> I enjoy doing arts and crafts, outdoorsy activities, and yoga when I'm not coding. Yoga allows
-                        me to
-                        focus and center myself especially when life becomes extremely busy and chaotic.
 
-                    </p>
-                </div>
-                <div class="col-sm-12"><br><br></div>
-            </div>
+            <hr>
+        </div> -->
+    <div class="row">
+
+        <div class="col-sm-12 col-lg-12">
+            <br><br>
         </div>
     </div>
 
+    <div class="row">
+
+        <div class="col-sm-12 col-lg-8">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">About Me</h1>
+                    <hr>
+                    <div class="col-sm-4 col-lg-6">
+
+                        <img src="images/portimage1.jpg" class="img-fluid" alt="Responsive image">
+
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <p class="card-text">Hi, I'm Holly. I'm an aspiring developer who hopes to become literate in
+                            many coding languages.
+                            In the future I would love to create websites and apps with my new found skills. I recently
+                            joined a coding bootcamp that is giving me the knowledge to make this dream a reality.</p>
+                        <p class="card-text">I enjoy doing arts and crafts, outdoorsy activities, and yoga when I'm not
+                            coding. Yoga allows
+                            me to focus and center myself especially when life becomes extremely busy and chaotic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="col-sm-4 col-lg-4">
+                    <img src="images/portimage1.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <p>Hi, I'm Holly. I'm an aspiring developer who hopes to become literate in many coding languages.
+                        In the future I would love to create websites and apps with my new found skills. I recently
+                        joined a coding bootcamp that is giving me the knowledge to make this dream a reality.
+                    </p>
+                    <p> I enjoy doing arts and crafts, outdoorsy activities, and yoga when I'm not coding. Yoga allows
+                        me to focus and center myself especially when life becomes extremely busy and chaotic.
+
+                    </p>
+                </div> -->
+    </div>
+    <div class="col-sm-2 col-lg-4"></div>
+
+    <div class="col-sm-12"><br><br></div>
+
+</div>
 </div>
 
-
-
-
-
-
+</div>
 
 
 
@@ -70,7 +150,7 @@
 </div>
 <footer class="footer">
 
-    <nav class="navbar fixed-bottom navbar-light bg-light">
+    <nav class="navbar fixed-bottom navbar-light bg-dark">
         <a class="navbar-brand" href="#"></a>
     </nav>
 </footer>
