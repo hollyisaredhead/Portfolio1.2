@@ -8,18 +8,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="col-sm-9">
-                <a class="navbar-brand" href="#">Holly Phelps</a>
-            </div>
-            <div class="col-3">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="index.html">About</a></li>
-                    <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand">Holly Phelps</a>
+    
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">About</a></li> |
+                <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li> |
+                <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
 
         <style>
@@ -27,42 +23,66 @@
         </style>
     </div>
     <style>
-            h1 {
-                color: #4aaaa5;
-                font-family: 'Georgia', Times, 'Times New Roman', serif;
-            }
-    
-            a {
-                color: #777777;
-            }
-    
-            p {
-                color: #777777;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-    
-            .background {
-                background-color: white;
-                border: solid 1px;
-                border-color: #dddddd;
-            }
-            .form-control1{
-                width: 100%;
-                height: 100px;
-            }
+          h1 {
+            color: #4aaaa5;
+            font-family: 'Georgia', Times, 'Times New Roman', serif;
+        }
 
-            .btn-primary{
-                background-color: #4aaaa5;
-                border-color: #4aaaa5;
-            }
-    
-            .bg-dark {
-                border-top: 8px solid #4aaaa5;
-                background-color: #666666;
-                height: 50px;
-            }
-        </style>
-       
+        a {
+            color: #777777;
+        }
+
+        p {
+            color: #777777;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+            margin: 10px;
+
+        }
+
+        .navbar-brand {
+            color: white;
+            background-color: #4aaaa5;
+            /* margin-top: 0px; */
+            padding: 30px;
+            height: 90px;
+            font-family: 'Georgia', Times, 'Times New Roman', serif;
+            margin-left: 2em;
+            margin-top: -20px;
+            
+            /* padding: 45px; */
+        }
+
+
+        .img-fluid{
+            padding: 20px;
+        }
+        .card {
+            overflow: hidden;
+        }
+
+        .card-text {
+            float: left;
+        }
+
+        .form-control1{
+            height:100px;
+            width: 100%;
+        }
+        .bg-light {
+            color: #ffffff;
+            border-bottom: solid 2px #cccccc;
+            height: 80px;
+        }
+
+        .bg-dark {
+            border-top: 8px solid #4aaaa5;
+            background-color: #666666;
+            height: 50px;
+        }
+
+    </style>
+
 </head>
 
 
@@ -70,56 +90,56 @@
 <div class="container">
 
 
-              
+
     <div class="row">
         <div class="col-sm-12"><br><br></div>
         <div class="col-sm-8 col-lg-6">
-                <div class="card">
-                        <div class="card-body">
-                <h1 class="card-title">Contact</h1>
-            <hr>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="John Smith">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="example@gmail.com">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Contact</h1>
+                    <hr>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="example@gmail.com">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Message</label>
+                            <input type="password" class="form-control1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
 
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Message</label>
-                    <input type="password" class="form-control1">
-                </div>
-
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+                <div class="col-sm-12"><br><br></div>
+            </div>
 
         </div>
-        <div class="col-sm-12"><br><br></div>
+
+
+
+
+
+
+
+
+
+
     </div>
+    <footer class="footer">
 
-</div>
-
-
-
-
-
-
-
-
-
-
-</div>
-<footer class="footer">
-
-    <nav class="navbar fixed-bottom navbar-light bg-dark">
-        <a class="navbar-brand" href="#"></a>
-    </nav>
-</footer>
+        <nav class="navbar fixed-bottom navbar-light bg-dark">
+           
+        </nav>
+    </footer>
 </div>
 
 </html>

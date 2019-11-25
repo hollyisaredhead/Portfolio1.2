@@ -8,52 +8,175 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
- 
-    <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="col-sm-9">
-                    <a class="navbar-brand" href="#">Holly Phelps</a>
-                </div>
-                <div class="col-3">
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="index.html">About</a></li>
-                        <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-    
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Holly Phelps</a>
 
-        <style>
-     
-        </style>
-    </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">About</a></li> |
+            <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li> |
+            <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <style>
+        h1 {
+            color: #4aaaa5;
+            font-family: 'Georgia', Times, 'Times New Roman', serif;
+        }
+
+        a {
+            color: #777777;
+        }
+
+        p {
+            color: #777777;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+
+        .navbar-brand {
+            color: white;
+            background-color: #4aaaa5;
+            /* margin-top: 0px; */
+            padding: 30px;
+            height: 90px;
+            font-family: 'Georgia', Times, 'Times New Roman', serif;
+            margin-left: 2em;
+            margin-top: -20px;
+
+            /* padding: 45px; */
+        }
+
+
+        .background {
+            background-color: white;
+            border: solid 1px;
+            border-color: #dddddd;
+        }
+
+        .img-overlay {
+            position: relative;
+            max-width: 238px;
+        }
+
+        .bg-light {
+            color: #ffffff;
+            border-bottom: solid 2px #cccccc;
+            height: 80px;
+        }
+
+        .bg-dark {
+            border-top: 8px solid #4aaaa5;
+            background-color: #666666;
+            height: 50px;
+        }
+
+        .img-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .img-container .overlay {
+            position: absolute;
+            top: 180px;
+            left: 0;
+            width: 100%;
+            height: 25%;
+            background: #4aaaa5;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+
 
 </head>
 
-
+<div class="col-sm-12 col-lg-12">
+    <br><br>
+</div>
 
 <div class="container">
-   
 
-</div>
-
-
-
-
-
-
+    <div class="row">
+        <div class="col-sm-12 col-lg-8">
+            <div class="card">
+                <div class="card-body">
+                    <h1>About Me</h1>
+                    <hr>
 
 
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="img-container">
+                                <img src="https://images.pexels.com/users/avatars/13686/lia-leslie-109.jpeg?w=256&h=256&fit=crop&crop=faces"
+                                    class="img-fluid" alt="Responsive image">
+                                <div class="overlay">Project 1</div>
+                            </div>
+                            <div class="col-sm-12"><br></div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="img-container">
+                                <img src="https://images.pexels.com/users/avatars/13686/lia-leslie-109.jpeg?w=256&h=256&fit=crop&crop=faces"
+                                    class="img-fluid" alt="Responsive image">
+                                <div class="overlay">Project 2</div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-12"><br></div>
+
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="img-container">
+                                <img src="https://images.pexels.com/users/avatars/13686/lia-leslie-109.jpeg?w=256&h=256&fit=crop&crop=faces"
+                                    class="img-fluid" alt="Responsive image">
+                                <div class="overlay">Project 3</div>
+                            </div>
+                            <div class="col-sm-12"><br></div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="img-container">
+                                <img src="https://images.pexels.com/users/avatars/13686/lia-leslie-109.jpeg?w=256&h=256&fit=crop&crop=faces"
+                                    class="img-fluid" alt="Responsive image">
+                                <div class="overlay">Project 4</div>
+                            </div>
+
+                        </div>
 
 
-</div>
-<footer class="footer">
+                        <div class="col-sm-12"><br></div>
 
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-        <a class="navbar-brand" href="#"></a>
-    </nav>
-</footer>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="img-container">
+                                <img src="https://images.pexels.com/users/avatars/13686/lia-leslie-109.jpeg?w=256&h=256&fit=crop&crop=faces"
+                                    class="img-fluid" alt="Responsive image">
+                                <div class="overlay">Project 1</div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-12"><br></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <footer class="footer">
+
+        <nav class="navbar fixed-bottom navbar-light bg-dark">
+
+        </nav>
+    </footer>
 </div>
 
 </html>
